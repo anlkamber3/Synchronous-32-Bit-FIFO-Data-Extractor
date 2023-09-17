@@ -88,9 +88,9 @@ entity extractor is
     data : out std_logic_vector(31 downto 0);
     check_flag : out std_logic
     );
-end parser;
+end extractor;
 
-architecture Behavioral of parser is
+architecture Behavioral of extractor is
 -- For hex_format
 signal main_data : std_logic_vector(31 downto 0); 
 signal master_last : std_logic; 
