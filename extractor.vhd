@@ -32,7 +32,7 @@ use IEEE.math_complex.all;
 
 
 
-entity parser is
+entity extractor is
     generic(
             IPV4_HEADER_OFFSET_BYTE : integer := 14;
             --DESTINATION MAC ADDRESS
